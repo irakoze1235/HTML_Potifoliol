@@ -1,0 +1,54 @@
+.logo{
+    color:#003cff;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 64px;
+    margin-top: -70px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+ul li a:hover{
+    color: blue;
+}
+
+.img{
+    
+    margin-left: 650px;
+    margin-top: -378px;
+
+}
+.bar{
+    background-color: #003cff;
+    text-align: center;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .img, .bar, .logo ,.menu  {
+      width: 100%; 
+    }
+  }
